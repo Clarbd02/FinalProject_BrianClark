@@ -8,7 +8,7 @@ Public Class HomeForm
 
     Public listMedia As New List(Of Media)
     Private Sub mnuAddItem_Click_1(sender As Object, e As EventArgs) Handles mnuAddItem.Click
-        AddForm.ShowDialog()
+        AddRemoveForm.ShowDialog()
 
     End Sub
 
